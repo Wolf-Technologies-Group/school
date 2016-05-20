@@ -89,6 +89,6 @@ print
 
 # Chamando a função menu dentro do código
 
-menu() # Se retirar este comando do código, nada mais faz sentido
+menu() # Inicia o script
 
 
