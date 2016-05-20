@@ -52,7 +52,7 @@ def menu():
     print " # Entre com as suas médias do 1°,2° e 3° bimestre "
     print " # Para sair do programa digite [0] "
     print
-
+    materia      = raw_input        ( " Que materia deseja calcular ?    )
     media_1      = float (raw_input ( " Digite sua nota do 1° bimestre   "))
     media_2      = float (raw_input ( " Digite sua nota do 2° bimestre   "))
     media_3      = float (raw_input ( " Digite sua nota do  3° bimestre   "))
@@ -65,8 +65,9 @@ def menu():
 #Exibindo os resultados
 
     print
-    print "  A sua média de 3 bimestres é de  %.2f           "  % total_media3
-    print "  O total de nota obtida em 3 bimestres é  %.2f   "  % total_media
+    print "  A sua média em %s  em  3 bimestres é de  %.2f           "  % ( materia , total_media3)
+    print
+    print "  O total de nota obtida em %s  é de   %.2f   "              % (materia , total_media )
     print
     hora()
 
